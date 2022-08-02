@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div id="auth" class="authentication">
+          <div class="wrapper">
+            <div id="login" class="card">
+              <div class="wrapper">
+                <div class="animation form login">
+                  <div class="wrapper">
+                    <h3 class="title">
+                      Sign in
+                    </h3>
+                    <form>
+                      <div class="form-group input">
+                        <label>
+                          Email
+                        </label>
+                        <input type="email" name="email" id="user-email-login" class="user-email">
+                      </div>
+                      <div class="form-group input">
+                        <label>
+                          Password
+                        </label>
+                        <input type="password" name="password" id="user-password-login" class="user-password">
+                      </div>
+                      <button type="submit" class="button color-1 login" id="button-login">
+                        Login
+                      </button>
+                    </form>
+                    <a href="#" id="button-register-switch">
+                      Create Account
+                    </a>
+                  </div>
+                </div>
+                <div class="animation note login">
+                  <div class="wrapper">
+                    <h1>
+                      Hello There
+                    </h1>
+                    <p>
+                      Don't have an account?
+                    </p>
+                    <p>
+                      Sign up with us today!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="register" class="card">
+              <div class="wrapper">
+                <div class="animation form register">
+                  <div class="wrapper">
+                    <h3 class="title">
+                      Create Account
+                    </h3>
+                    <form>
+                      <div class="form-group input">
+                        <label>
+                          User-name
+                        </label>
+                        <input type="text" name="User-name" id="user-username-register" class="user-name">
+                      </div>
+                      <div class="form-group input">
+                        <label>
+                          Email
+                        </label>
+                        <input type="email" name="email" id="user-email-register" class="user-email">
+                      </div>
+                      <div class="form-group input">
+                        <label>
+                          Password
+                        </label>
+                        <input type="password" name="password" id="user-password-register" class="user-password">
+                      </div>
+                      <div class="form-group input">
+                        <label>
+                          phone number
+                        </label>
+                        <input type="number" name="number" id="user-number-register"
+                               class="user-number-confirm">
+                      </div>
+                      <button type="submit" class="button color-1 login" id="button-register">
+                        Create
+                      </button>
+                    </form>
+                    <a href="#" id="button-login-switch">
+                      Already have an account?
+                    </a>
+                  </div>
+                </div>
+                <div class="animation note register">
+                  <div class="wrapper">
+                    <h1>
+                      Let's get you started
+                    </h1>
+                    <p>
+                      Be part of our awesome team and have fun with us
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/auth_home.js"></script>
+  <script src="js/form.js"></script>
+</html>

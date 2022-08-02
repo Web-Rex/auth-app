@@ -1,0 +1,29 @@
+@media screen and (max-width: 1200px) {
+  .carousel__elemento .songInfo h1 {
+    font-size: calc(100vw / 25);
+    text-transform: capitalize;
+  }
+  .carousel__elemento .songInfo p {
+    font-size: calc(100vw / 80);
+    padding: 20px 0;
+    text-transform: capitalize;
+  }
+  .carousel__elemento img {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .carousel__elemento .songInfo h1 {
+    font-size: calc(100vw / 15);
+    text-transform: capitalize;
+  }
+  .carousel__elemento .songInfo p {
+    font-size: calc(100vw / 50);
+    padding: 20px 0;
+    text-transform: capitalize;
+  }
+  .carousel__elemento img {
+    width: 22%;
+  }
+}
